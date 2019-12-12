@@ -1,0 +1,321 @@
+@font-face{
+	font-family: 'Montserrat light'
+	src:url(fonts/Montserrat-Light.otf);
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Montserrat medium'
+	src:url(fonts/Montserrat-Medium.otf);
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Montserrat SemiBold '
+	src:url('./fonts/MMontserrat-SemiBold');
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat light;
+	line-height: 1.6;
+}
+/*-------------------------------the big container of 1st part*/
+.sectionz{
+	background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("CFC.PNG");
+	background-size: cover;
+}
+.contain-first{
+	position: fixed;
+	display: flex;
+	background-color: black;
+	justify-content: center;
+	width: 100%;
+	z-index: 1;
+}/*--------------------------------------------navbar style*/
+/*-------------------menu styling*/
+.contain-first ul{
+	list-style: none;
+	display: flex;
+
+}
+li{
+	margin: 20px;
+}
+.contain-first nav a {
+	color: white;
+	text-decoration: none;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size:18px;
+	
+
+}
+nav #heightbutton{
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	padding-top:20px ;
+	padding-bottom:20px ;
+	padding-left:40px ;
+	padding-right: 40px;
+}
+/*----------------------------logo style*/
+.logo {
+max-width: 250px;
+height: auto;
+}
+#heightbutton{
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+}
+.center-contain{
+	font-family: Montserrat medium;
+	font-weight: 100;
+	font-size: 24px;
+}
+/*----------------------------------------------index styling*/
+.index-container{
+	display: flex;
+	justify-content: center;
+	font-family: Montserrat medium;
+
+}
+#Aaa{
+	font-size: 50px;
+}
+.a-style{
+	text-decoration: underline;
+	text-decoration-color: black;
+	color: #048DFF;
+	margin-right: 8px;
+	margin-left:8px ;
+}
+/*--------------------second part of the 1St big container*/
+.center-contain{
+	max-width
+	: 50%;
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+
+}
+.header2nd {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	justify-content: space-around;
+
+}
+.slogan{color: white;
+}
+.soustitre{
+	color: white;
+	z-index: 0
+}
+.buttons{
+	margin-top: 40px; 
+	margin-bottom: 60px;
+	color: white
+}
+
+
+}
+/*hovers ------------------list-style-position:  */
+
+#heightbutton:hover{
+	background-color: white;
+	color: black;
+}
+
+.non-non-button:hover{
+	background-color: white;
+	color: black;
+	box-shadow:20px 20px 10px grey
+
+}
+.popup .close:hover {
+  color: #008AFF;
+  }
+  .coulumns-3 a:hover{
+	color: #008AFF;
+    text-decoration:none;
+}
+/*visited -------------*/
+.titlepara a:link, .titlepara a:visited {
+    color: blue;
+    text-decoration-color: black;
+}
+.coulumns-3 a:link, .coulumns-3 a:visited{
+	color: black;
+    text-decoration:none;
+}
+/*index style --------------------------*/
+/*header of this section ---------------*/
+.titlepara{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.titlepara h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.titlepara p{
+	text-align: center;
+	margin-top: 80px;
+}
+#listing{
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+}
+
+}
+ul li.icons{
+	max-width: 100px;
+	height: auto;
+}
+#titre{
+	margin-bottom: 80px;
+}
+#titre a{
+text-decoration: underline;
+}
+/*the index itself ----------------------*/
+.coulumns-3{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.style-id{
+	color: #008AFF;
+	font-family: Montserrat Medium;
+}
+/*pre footer section*/
+
+/*1St part ----------*/
+.second-white2{
+	display: flex;
+	justify-content: center;
+}
+.sponsor{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family: Montserrat Medium;
+
+}
+.sponsor h1, #Aaa h1{
+	letter-spacing: 4px;
+}
+ #Aaa h1{
+	letter-spacing: 4px;
+}
+/*2rd part -------*/
+.second-white3{
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+	margin-bottom: 
+}
+.mid-contain{
+	display: flex;
+	justify-content: space-around;
+}
+.non-button{
+	margin-right:10px ;
+}
+.non-non-button{
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	padding-right:200px ;
+	padding-left:200px ;
+	margin-left:60px ;
+
+}
+/*pop up styling----------------*/
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  /*opacity of the  whole black overlay*/
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  /*-------transition of emmergence of the whole pop up*/
+  transition: all 2s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-family: Montserrat Medium;
+}
+
+
+.S1tst, .S2tst{
+	display: flex;
+
+	
+}
+.S1tst{
+	margin-left: 40px;
+}
+.S2tst{
+	justify-content: space-evenly;	
+}
+.blue-ones{
+	color: #008AFF;
+	font-family: Montserrat Medium;
+}
+
+
+
+/*footer styling-----------*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-color: black;
+	margin-top: 90px;
+}
+.greyfont{
+	color:#666666;
+}
+.icons{
+	display: flex;
+	justify-content: space-evenly;
+	color:#FFF;
+
+}

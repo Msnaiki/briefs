@@ -1,0 +1,321 @@
+@font-face{
+	font-family: 'Montserrat light'
+	src:url(fonts/Montserrat-Light.otf);
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Montserrat medium'
+	src:url(fonts/Montserrat-Medium.otf);
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Montserrat SemiBold '
+	src:url('./fonts/MMontserrat-SemiBold');
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat light;
+	line-height: 1.6;
+	letter-spacing: 2px;
+}
+/*-------------------------------the big container of 1st part*/
+.sectionz{
+	background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("bg.JPG");
+}
+.contain-first{
+	position: fixed;
+	display: flex;
+	background-color: black;
+	justify-content: center;
+	width: 100%;
+	z-index: 1;
+}/*--------------------------------------------navbar style*/
+/*-------------------menu styling*/
+ul{
+	list-style: none;
+	display: flex;
+	
+
+}
+li{
+	margin: 20px;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size:18px;
+
+}
+nav #heightbutton{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+/*----------------------------logo style*/
+.logo {
+max-width: 250px;
+height: auto;
+}
+#heightbutton{
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	
+
+}
+
+/*--------------------second part of the 1St big container*/
+.center-contain{
+	font-family: Montserrat medium;
+	font-weight: 100;
+	font-size: 24px;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 200px;
+
+}
+.header2nd {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	justify-content: space-around;
+
+}
+.slogan{color: white;
+}
+.soustitre{
+	color: white;
+	z-index: 0
+}
+.buttons{
+	margin-top: 40px; 
+	margin-bottom: 60px;
+}
+#fav1 {
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	border:1px solid;
+	border-radius: 30px;
+	padding-top:20px ;
+	padding-bottom:20px ;
+	padding-left:40px ;
+	padding-right:40px ;
+}
+#fav2 {
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	padding-top:20px ;
+	padding-bottom:20px ;
+	padding-left:40px ;
+	padding-right: 40px;
+
+}
+/*hovers ------------------list-style-position:  */
+nav a:hover {
+	color: #23527C;
+}
+#heightbutton:hover{
+background-color: white;
+color: black;
+}
+#fav1:hover{
+background-color: white;
+color: black;
+}
+#fav2:hover{
+background-color: white;
+color: black;
+}
+.non-non-button:hover{
+	background-color: white;
+	color: black;
+	box-shadow:20px 20px 10px grey
+
+}
+/*-----------------------bridge*/
+/*------------styles second part*/
+.firstpart{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	font-family: Montserrat SemiBold;
+	font-weight: 100;
+	font-size: 20px;
+	letter-spacing: 2PX;
+}
+/*---------center text*/
+
+.centering p
+{
+	text-align: center;
+	margin-bottom: 60px;
+	letter-spacing: 2px;
+}
+
+/*-----------------time to flex*/
+.layers {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 100px;
+}
+
+.floating{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.floating p{
+	text-align: center;
+	letter-spacing: 1px;
+}
+/*the contain two style*/
+.contain-two{
+	display: flex;
+	background-color: #008AFF;
+	align-items: center;
+	margin-bottom: 100px;
+}
+/*left style ------*/
+.contain-two img{
+	width: 952px;
+	height: auto;
+	
+}
+
+/*right style*/
+.rightside{
+	margin:25px;
+	color: white;
+}
+.para{
+	text-align: center;
+	font-family: Montserrat SemiBold;
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+.para2{
+	text-align: center;
+	font-family: Montserrat SemiBold;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+/*simplonn power style ------*/
+.contain-simplon{
+	background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("bg.JPG");
+display: flex;
+	width: 100%;
+	height: 480px;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;		
+
+}
+#fontit{
+	color: #008AFF;
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+#fontit2{
+	color: #FFF;
+	font-size: 50px;
+	margin-top: 0px;	
+}
+/*style numbers sections --------*/
+.contain-numbers{
+	display: flex;
+	justify-content: space-around;
+	background-color: #008AFF;
+	color: white;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.numb{
+	text-align: center;
+	font-size: 18px;
+}
+#middlenumb{
+	border-right: 1px dashed black;
+	border-left: 1px dashed black;
+	padding-right: 100px;
+	padding-left: 100px;
+
+}
+/*second white styling-----------*/
+/*1St part ----------*/
+.second-white{
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	margin-bottom: 90px;
+}
+/*2St part ----------*/
+.sponsor{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family: Montserrat Medium;
+
+}
+.sponsor h1, #Aaa h1{
+	letter-spacing: 4px;
+}
+ #Aaa h1{
+	letter-spacing: 4px;
+}
+/*2rd part -------*/
+.second-white3{
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+	margin-bottom: 
+}
+.mid-contain{
+	display: flex;
+	justify-content: space-around;
+}
+.non-button{
+	margin-right:10px ;
+}
+.non-non-button{
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	padding-right:200px ;
+	padding-left:200px ;
+	margin-left:60px ;
+
+}
+
+/*footer styling-----------*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	color: white;
+	background-color: black;
+	margin-top: 90px;
+}
+.greyfont{
+	color:#666666;
+}
+.icons{
+	display: flex;
+	justify-content: space-evenly;
+	color:#FFF;
+
+}
