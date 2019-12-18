@@ -54,20 +54,16 @@ nav #heightbutton{
 	padding-bottom: 20px;
 	padding-right: 40px;
 	padding-left: 40px;
+	background-color: #008AFF;
+	color: white;
+	border-radius: 30px;
 }
 /*----------------------------logo style*/
 .logo {
 max-width: 250px;
 height: auto;
 }
-#heightbutton{
-	background-color: #008AFF;
-	color: white;
-	text-decoration: none;
-	border-radius: 30px;
-	
 
-}
 
 /*--------------------second part of the 1St big container*/
 .center-contain{
