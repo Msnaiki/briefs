@@ -1,0 +1,467 @@
+@font-face{
+	font-family: 'Montserrat light'
+	src:url(fonts/Montserrat-Light.otf);
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Montserrat medium'
+	src:url(fonts/Montserrat-Medium.otf);
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Montserrat SemiBold '
+	src:url('./fonts/MMontserrat-SemiBold');
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat light;
+	line-height: 1.6;
+	letter-spacing: 2px;
+}
+/*-------------------------------the big container of 1st part*/
+.sectionz{
+	background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("CFC.PNG");
+	background-size: cover;
+}
+/* header */
+
+.header {
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  color: #FFF;   
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  color: #23527C;
+}
+
+.header .logo {
+  
+  float: left;
+  width: 200px;
+  padding: 10px 20px;
+}
+.header .logo2{
+width: 100%;
+}
+#heightbutton{
+	background-color: #008AFF;
+
+	
+	border-radius: 30px;
+	
+
+}
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .nav-icon {
+  background: #FFF;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .nav-icon:before,
+.header .menu-icon .nav-icon:after {
+  background: #FFF;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .nav-icon:before {
+  top: 5px;
+}
+
+.header .menu-icon .nav-icon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 700px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top:0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top:0;
+}
+/*----------------------------logo style*/
+.logo {
+max-width: 250px;
+height: auto;
+}
+#heightbutton{
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+}
+.center-contain{
+	font-family: Montserrat medium;
+	font-weight: 100;
+	font-size: 24px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+
+/*--------------------second part of the 1St big container*/
+
+.header2nd {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	justify-content: space-around;
+
+}
+.slogan{color: white;
+}
+.soustitre{
+	color: white;
+	z-index: 0
+}
+.buttons{
+	margin-top: 40px; 
+	margin-bottom: 60px;
+	color: white
+}
+
+
+}
+/*hovers ------------------list-style-position:  */
+
+#heightbutton:hover{
+	background-color: white;
+	color: black;
+}
+
+.non-non-button:hover{
+	background-color: white;
+	color: black;
+	box-shadow:20px 20px 10px grey
+
+}
+/*---------------------------image gallery styling*/
+.gallery{
+	margin-bottom: 80px;
+}
+.image-container
+{
+	display: flex;
+	justify-content: center;
+}
+.sousg-c{
+	display: flex;
+	justify-content: center;
+}
+.remove{
+	margin: 0;
+	padding: 0;
+}
+#titre{
+	text-align: center;
+	font-family: Montserrat SemiBold;
+	font-size: 40px;
+}
+/*--------------------second part of the 1St big container*/
+.center-contain{
+	
+
+	display: flex;
+	justify-content: center;
+	
+
+}
+.header2nd {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	justify-content: space-around;
+
+}
+.slogan{color: white;
+}
+.soustitre{
+	color: white;
+	z-index: 0
+}
+.buttons{
+	margin-top: 40px; 
+	margin-bottom: 60px;
+}
+#fav1 {
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	border:1px solid;
+	border-radius: 30px;
+	padding-top:20px ;
+	padding-bottom:20px ;
+	padding-left:40px ;
+	padding-right:40px ;
+}
+#fav2 {
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	padding-top:20px ;
+	padding-bottom:20px ;
+	padding-left:40px ;
+	padding-right: 40px;
+
+}
+/*hovers ------------------list-style-position:  */
+nav a:hover {
+	color: #23527C;
+}
+#heightbutton:hover{
+	background-color: white;
+	color: black;
+}
+#fav1:hover{
+	background-color: white;
+	color: black;
+}
+#fav2:hover{
+	background-color: white;
+	color: black;
+}
+.non-non-button:hover{
+	background-color: white;
+	color: black;
+	box-shadow:20px 20px 10px grey
+
+}
+
+.titlepara{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 50px;
+
+
+}
+.titlepara h1{
+	text-align: center;
+	font-family: Montserrat SemiBold;
+	font-size: 40px;
+}
+.titlepara p{
+	text-align: center;
+	margin-top: 80px;
+}
+#listing{
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+}
+
+}
+ul li.icons{
+	max-width: 100px;
+	height: auto;
+}
+#titre{
+	margin-bottom: 80px;
+}
+.sousg{
+	height: 300px;
+	width: 300px;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*pre footer section*/
+
+/*1St part ----------*/
+.second-white2{
+	display: flex;
+	justify-content: center;
+}
+.sponsor{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family: Montserrat medium;
+	letter-spacing: 2px;
+
+}
+/*2rd part -------*/
+.second-white3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 90px;
+	
+}
+.mid-contain{
+	display: flex;
+	justify-content: space-around;
+}
+
+.non-non-button{
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	width: 400px;
+	margin-left:60px ;
+
+}
+
+/*footer styling-----------*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	color: white;
+	background-color: black;
+	margin-top: 90px;
+}
+.greyfont{
+	color:#666666;
+}
+.icons{
+	display: flex;
+	justify-content: space-evenly;
+	color:#FFF;
+
+	}
+
+@media only screen and (max-width: 1220px) {
+.sousg-c{
+	flex-direction: column;
+	}
+.center-contain {
+  	justify-content: center;
+  	text-align: center;
+  	margin-left: 0;
+	}	
+.sousg-c img, .image-container img{
+	width: 100%;
+	height: auto;
+	margin:4px;
+	}
+@media only screen and (max-width: 740px) {
+.buttons{
+	flex-direction: column;
+	justify-content: space-around;
+	}
+#fav1{
+	display: block;
+	margin-bottom: 20px;
+}
+.second-white3{
+	flex-direction: column;
+	text-align: center;
+	}
+.sponsor h1{
+	text-align: center;
+	}
+.non-non-button{
+	text-align: center;
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	}
+
+footer{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+	
+}
+.second-white3 p{
+	text-align: center;
+}
+
+}
+@media (min-width: 1490px) {
+ 
+  .header li {
+    float: left;
+ 	 }
+  .header li a {
+    padding: 20px 30px;
+ 	 }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+ 	 }
+  .header .menu-icon {
+    display: none;
+
+ 	 }
+   .second-white, .second-white2, .second-white3{
+ 	text-align: center;
+	 }
+ 	 .center-contain {
+ 	 width: 100%;
+  	justify-content: flex-start;
+  margin-right: 0;
+ margin-left: 0;
+	}
+}

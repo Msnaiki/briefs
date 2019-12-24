@@ -1,0 +1,531 @@
+@font-face{
+	font-family: 'Montserrat light'
+	src:url(fonts/Montserrat-Light.otf);
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Montserrat medium'
+	src:url(fonts/Montserrat-Medium.otf);
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Montserrat SemiBold '
+	src:url('./fonts/MMontserrat-SemiBold');
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat light;
+	line-height: 1.6;
+}
+/*-------------------------------the big container of 1st part*/
+.sectionz{
+	background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("CFC.PNG");
+	background-size: cover;
+}
+/* header */
+
+.header {
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  color: #FFF;   
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  color: #23527C;
+}
+
+.header .logo {
+  
+  float: left;
+  width: 200px;
+  padding: 10px 20px;
+}
+.header .logo2{
+width: 100%;
+}
+#heightbutton{
+	background-color: #008AFF;
+
+	
+	border-radius: 30px;
+	
+
+}
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .nav-icon {
+  background: #FFF;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .nav-icon:before,
+.header .menu-icon .nav-icon:after {
+  background: #FFF;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .nav-icon:before {
+  top: 5px;
+}
+
+.header .menu-icon .nav-icon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 700px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top:0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top:0;
+}
+
+
+/* 48em = 768px @ 16pt font */
+
+
+.center-contain{
+	font-family: Montserrat medium;
+	font-weight: 100;
+	font-size: 24px;
+}
+/*----------------------------------------------index styling*/
+.index-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: Montserrat medium;
+
+}
+#Aaa{
+	font-size: 50px;
+}
+.a-style{
+	text-decoration: underline;
+	text-decoration-color: black;
+	color: #048DFF;
+	margin-right: 8px;
+	margin-left:8px ;
+}
+/*--------------------second part of the 1St big container*/
+.center-contain{
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 40px;
+
+}
+.header2nd {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	justify-content: space-around;
+
+}
+.slogan{color: white;
+}
+.soustitre{
+	color: white;
+	z-index: 0
+}
+.buttons{
+	margin-top: 40px; 
+	margin-bottom: 60px;
+	color: white
+}
+
+
+}
+/*hovers ------------------list-style-position:  */
+
+#heightbutton:hover{
+	background-color: white;
+	color: black;
+}
+
+.non-non-button:hover{
+	background-color: white;
+	color: black;
+	box-shadow:20px 20px 10px grey
+
+}
+.popup .close:hover {
+  color: #008AFF;
+  }
+  .coulumns-3 a:hover{
+	color: #008AFF;
+    text-decoration:none;
+}
+/*visited -------------*/
+.titlepara a:link, .titlepara a:visited {
+    color: blue;
+    text-decoration-color: black;
+}
+.coulumns-3 a:link, .coulumns-3 a:visited{
+	color: black;
+    text-decoration:none;
+}
+/*index style --------------------------*/
+/*header of this section ---------------*/
+.titlepara{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.titlepara h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.titlepara p{
+	text-align: center;
+	margin-top: 80px;
+}
+#listing{
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+}
+
+}
+i.icons{
+	max-width: 100px;
+	height: auto;
+}
+#titre{
+	margin-bottom: 80px;
+}
+#titre a{
+text-decoration: underline;
+}
+/*the index itself ----------------------*/
+.coulumns-3{
+	display: flex;
+	justify-content: space-around;
+	
+	
+
+}
+.coulumn-1{
+	display: flex;
+	
+	flex-direction: column;
+}
+
+
+.style-id{
+	color: #008AFF;
+	font-family: Montserrat Medium;
+}
+/*pre footer section*/
+
+/*1St part ----------*/
+.second-white2{
+	display: flex;
+	justify-content: center;
+}
+.sponsor{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family: Montserrat Medium;
+
+}
+.sponsor h1, #Aaa h1{
+	letter-spacing: 4px;
+}
+ #Aaa h1{
+	letter-spacing: 4px;
+}
+/*2rd part -------*/
+.second-white3{
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+	
+}
+.mid-contain{
+	display: flex;
+	justify-content: space-around;
+}
+
+.non-non-button{
+	background-color: #008AFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	padding-right:200px ;
+	padding-left:200px ;
+	margin-left:60px ;
+
+}
+/*pop up styling----------------*/
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  /*opacity of the  whole black overlay*/
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  /*-------transition of emmergence of the whole pop up*/
+  transition: all 2s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-family: Montserrat Medium;
+}
+
+
+.S1tst, .S2tst{
+	display: flex;
+
+	
+}
+.S1tst{
+	margin-left: 40px;
+}
+.S2tst{
+	justify-content: space-evenly;	
+}
+.blue-ones{
+	color: #008AFF;
+	font-family: Montserrat Medium;
+}
+
+
+
+/*footer styling-----------*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-color: black;
+	margin-top: 90px;
+}
+.greyfont{
+	color:#666666;
+}
+.icons{
+	display: flex;
+	justify-content: space-evenly;
+	color:#FFF;
+
+}
+
+
+@media only screen and (max-width: 740px) {
+.buttons{
+	flex-direction: column;
+	justify-content: space-around;
+}
+#fav1{
+	display: block;
+	margin-bottom: 20px;
+}
+.second-white3{
+	flex-direction: column;
+	text-align: center;
+}
+.sponsor h1{
+	text-align: center;
+}
+.non-non-button{
+	text-align: center;
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+footer{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.coulumns-3{
+
+	justify-content: center;
+	align-items: center;	
+	flex-direction: column;
+	
+
+}
+.popup {
+  margin-top: 70px ;
+  margin-bottom: 70px ;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  }
+
+
+}
+
+
+  @media (min-width: 1340px) {
+ 
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+
+  }
+   .second-white, .second-white2, .second-white3{
+ 	text-align: center;
+ }
+ nav a {
+ 	font-size: 12px;
+ }
+ .contain-two{
+ 	flex-direction: column;
+ }
+ #middlenumb{
+	border-right: none;
+	border-left: none;
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+	}
+	 .center-contain {
+  	justify-content: flex-start;
+  	text-align: left;
+  	margin-left: 0;
+  	
+
+
+}
+@media only screen and (max-width: 600px) {
+/*.buttons{
+	flex-direction: column;
+	justify-content: space-around;
+}
+#fav1{
+	display: block;
+	margin-bottom: 20px;
+}
+.second-white3{
+	flex-direction: column;
+	text-align: center;
+}
+.non-non-button{
+	text-align: center;
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+footer{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.coulumns-3{
+
+	justify-content: center;
+	
+	flex-direction: column;
+	
+
+}
+
+*/
+body{
+	display: none;
+}
+}
